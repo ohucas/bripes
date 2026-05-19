@@ -3,8 +3,8 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "packageManager": "pnpm@10.14.0",
   "scripts": {
+    "preinstall": "npx pnpm@10.14.0 --version",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
