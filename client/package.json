@@ -1,38 +1,6 @@
-{
-  "name": "bripes-client",
-  "private": true,
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
+"scripts": {
     "dev": "vite",
-    "build": "vite",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "@hookform/resolvers": "latest",
-    "@radix-ui/react-accordion": "latest",
-    "@radix-ui/react-alert-dialog": "latest",
-    "@radix-ui/react-aspect-ratio": "latest",
-    "@radix-ui/react-avatar": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "tw-animate-css": "latest"
-  },
-  "devDependencies": {
-    "@tailwindcss/typography": "latest",
-    "@tailwindcss/vite": "latest",
-    "@types/google.maps": "latest",
-    "@types/node": "latest",
-    "@types/react": "latest",
-    "@types/react-dom": "latest",
-    "@vitejs/plugin-react": "latest",
-    "autoprefixer": "latest",
-    "esbuild": "latest",
-    "postcss": "latest",
-    "prettier": "latest",
-    "tailwindcss": "latest",
-    "tsx": "latest",
-    "vite": "latest"
-  }
-}
