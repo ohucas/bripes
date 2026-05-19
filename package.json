@@ -1,5 +1,9 @@
 {
   "name": "bripes-root",
   "version": "1.0.0",
-  "packageManager": "pnpm@10.14.0"
+  "private": true,
+  "packageManager": "pnpm@10.14.0",
+  "engines": {
+    "node": ">=20.0.0"
+  }
 }
