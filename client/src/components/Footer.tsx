@@ -11,18 +11,7 @@ export default function Footer() {
       href: 'https://instagram.com/bripesbr',
       color: 'hover:text-pink-500',
     },
-    {
-      icon: Linkedin,
-      label: 'LinkedIn',
-      href: '#',
-      color: 'hover:text-blue-500',
-    },
-    {
-      icon: Github,
-      label: 'GitHub',
-      href: '#',
-      color: 'hover:text-gray-400',
-    },
+
   ];
 
   const quickLinks = [
